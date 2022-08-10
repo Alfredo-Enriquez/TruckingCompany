@@ -42,6 +42,24 @@
     text-decoration: none;
     font-size: 2rem;
 }
+#myCarousel {       /*Image Carousel*/
+    display: flex;
+    justify-content: center;
+    position:relative;
+    top:0;
+    height: 50%;
+    width: 50%;    
+    margin:auto;
+    z-index: 5;
+  }
+  
+  #carousel-inner img {       
+     display:block;
+     height: auto; 
+     max-width: 100%;
+     display: flex;
+     justify-content: center;
+  }                /*Image Carousel End*/
 
 .fa-gem {
     margin-right: 0.5rem;
